@@ -1,12 +1,20 @@
-import React from 'react';
-import './App.css';
+import React, { Component } from 'react';
+import Hero from './components/Hero';
+import ErrorBoundary from './components/ErrorBoundary';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Exploring more on React js Optimizations via separate github branches</h1>
-    </div>
-  );
+class componentName extends Component {
+
+  render() {
+    return (
+      <div>
+      <ErrorBoundary>
+        <Hero heroName="Batman"/>
+        <Hero heroName="Superman"/>
+        <Hero heroName="Joker"/>
+        </ErrorBoundary>
+      </div>
+    );
+  }
 }
 
-export default App;
+export default componentName;
