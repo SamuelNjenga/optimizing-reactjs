@@ -9,7 +9,11 @@ class componentName extends Component {
       <div>
       <ErrorBoundary>
         <Hero heroName="Batman"/>
+        </ErrorBoundary>
+        <ErrorBoundary>
         <Hero heroName="Superman"/>
+        </ErrorBoundary>
+        <ErrorBoundary >
         <Hero heroName="Joker"/>
         </ErrorBoundary>
       </div>
