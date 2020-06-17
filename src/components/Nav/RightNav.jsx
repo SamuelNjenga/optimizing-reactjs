@@ -8,6 +8,7 @@ list-style: none;
       padding:18px 10px;
   }
   @media(max-width:768px){
+      display:none;
       flex-flow:column nowrap;
       background-color: #0D2538;
       position:fixed;
